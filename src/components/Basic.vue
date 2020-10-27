@@ -1,7 +1,7 @@
 <template>
-  <div class="hello container-fluid">
-    <div class="row justify-content-center">
-      <div class="col-6">Result:</div>
+  <div class="basic container-fluid text-center" @click="buttonClick">
+    <div class="row justify-content-center pt-5">
+      <div class="col-6">{{ current }}</div>
     </div>
     <div class="row justify-content-center">
       <div class="col-6">
@@ -43,15 +43,19 @@
   </div>
 </template>
 
+
 <script>
 export default {
-  name: "calculator",
-  props: {
-    msg: String,
+  name: "basic",
+  data() {
+    return {};
   },
+  computed: {},
+  methods: {},
+  components: {},
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
 </style>
