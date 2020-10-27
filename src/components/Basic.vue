@@ -1,8 +1,6 @@
 <template>
   <div class="basic text-center" @click="buttonClick">
-    <div class="row justify-content-center">
-      <div class="col-6">{{ current }}</div>
-    </div>
+    <div class="row justify-content-center"></div>
     <div class="row justify-content-center">
       <div class="col-6">
         <button class="btn btn-info">+</button>

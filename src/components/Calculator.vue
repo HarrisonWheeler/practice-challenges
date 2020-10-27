@@ -40,7 +40,7 @@ export default {
             break;
           }
           case "x": {
-            this.mulitply();
+            this.multiply();
             break;
           }
           case "-": {
